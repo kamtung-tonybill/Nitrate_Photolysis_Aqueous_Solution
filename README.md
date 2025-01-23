@@ -14,3 +14,24 @@ This repository has the following directories:
     - mrci+q_template.inp: The ORCA input file to perform MRCI+Q calculations.
     - nitrate_revpbe0_scan.inp: The ORCA input file to perform a potential energy surface scan at the ground state of nitrate at the level of revPBE0.
     - nitrate_t1_revpbe0_template.inp: The ORCA input file to perform vertical excitations to the first triplet state of nitrate at the level of revPBE0.
+
+- S0_MD:
+    - cp2k.inp: The CP2K input file to perform AIMD simulations at the ground state of nitrate.
+    - nh4no3_63h2o_pbe.xyz: The initial configuration for the AIMD simulations at the ground state.
+
+- UV_Vis:
+    - orca_template.inp: The ORCA input file to perform TD-DFT calculations to generate the UV-Visible absorption spectra.
+ 
+- T1_MD:
+    - cp2k.inp: The CP2K input file to perform AIMD simulations at the triplet state of nitrate.
+    - nh4no3_63h2o_revpbe0.xyz: The initial configuration for the AIMD simulations at the triplet state.
+ 
+- T1_MetaD:
+    - cp2k.inp: The CP2K input file to perform AIMD simulations with metadynamics at the triplet state of nitrate.
+    - plumed.dat: The PLUMED input file to define parameters for metadynamics simulations.
+    - COLVAR files: The PLUMED output files containing the CVs and applied biases along the simulation.
+    - HILLS files: The PLUMED output files containing the applied Gaussians along the simulation.
+    - XYZ files: The initial configurations.
+    - walker-0: The directory for walker-0 in the multiple-walkers metadynamics simulation.
+    - walker-1: The directory for walker-1 in the multiple-walkers metadynamics simulation.
+    - hills: The input files and data for reproducing Figure 4 and S7.
