@@ -1,5 +1,5 @@
 # Nitrate_Photolysis_Aqueous_Solution
-Data and supplementary information of manuscript "Revealing Photochemical Pathways of Nitrate in Water through First-Principles Simulations".
+Data and supplementary information of manuscript ["Revealing Photochemical Pathways of Nitrate in Water through First-Principles Simulations"](https://chemrxiv.org/engage/chemrxiv/article-details/67769779fa469535b98bbb25).
 
 <p align="center">
 <img src="Nitrate_Photolysis_Solution_ToC.png" width="450">
