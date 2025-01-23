@@ -1,0 +1,4 @@
+! UKS REVPBE0 def2-SVP
+%pal nprocs 16 end
+
+* xyzfile -1 3 nitrate_revpbe0_scan.xxxx.xyz

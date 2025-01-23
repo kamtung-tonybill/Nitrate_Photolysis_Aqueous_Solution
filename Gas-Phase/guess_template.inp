@@ -1,0 +1,8 @@
+! UKS CAM-B3LYP ma-def2-TZVP TightSCF UNO MOREAD NoIter
+%pal nprocs 16 end
+%moinp "nitrate_cam-b3lyp_scan.00pts.gbw"
+
+%scf BrokenSym 1,1 end
+
+* xyzfile -1 1 nitrate_cam-b3lyp_scan.00pts.xyz
+

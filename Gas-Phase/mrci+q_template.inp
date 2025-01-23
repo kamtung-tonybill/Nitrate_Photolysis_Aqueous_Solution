@@ -1,0 +1,18 @@
+! UHF aug-cc-pVTZ VeryTightSCF MRCI+Q MOREAD
+%pal nprocs 32 end
+%moinp "sa-casscf.gbw"
+
+%casscf nel 10
+        norb 9
+        nroots 3,4
+        mult 1,3
+        end
+
+%mrci soc
+        DoSOC true
+        PrintLevel 2
+        TPrint 0.01
+      end
+end
+
+* xyzfile -1 1 nitrate_cam-b3lyp_scan.00pts.xyz
