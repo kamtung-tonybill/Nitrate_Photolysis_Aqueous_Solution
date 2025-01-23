@@ -1,0 +1,11 @@
+! CAM-B3LYP ma-def2-TZVP CPCM(Water)
+%maxcore 1500
+%pal nprocs 25 end
+
+%tddft
+Nroots 20
+Triplets true
+DoSOC true
+end
+
+* xyzfile -1 1 frame_xxxx.xyz
